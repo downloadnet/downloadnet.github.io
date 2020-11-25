@@ -2,7 +2,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>html5唯美爱情表白动画网页代码</title>
+<title>猩猿分享</title>
 <link type="text/css" rel="stylesheet" href="renxi/default.css">
 <script type="text/javascript" src="renxi/jquery.min.js"></script>
 <script type="text/javascript" src="renxi/jscex.min.js"></script>
@@ -14,11 +14,9 @@
 <script type="text/javascript" src="renxi/functions.js" charset="utf-8"></script>
 <script type="text/javascript" src="renxi/love.js" charset="utf-8"></script>
 <style type="text/css">
-<!--
 .STYLE1 {
 	color: #666666
 }
--->
 </style>
 </head>
 <body>
@@ -38,7 +36,7 @@
         <span class="say">因为我太啰嗦了，所以你离开了我</span><br>
         <span class="say">虽然你看不见我的告白，但是我还是要把这些心里话说出来</span><br>
         <span class="say"> </span><br>
-        <span class="say"><span class="space"></span> -- 爱你的仁希--</span> </font>
+        <span class="say"><span class="space"></span> -- 爱你的猩帝--</span> </font>
         </p>
       </div>
     </div>
@@ -178,11 +176,21 @@
 
         var textAnimate = eval(Jscex.compile("async", function () {
 		    var together = new Date();
-		    together.setFullYear(2010,1 , 15); 			//时间年月日
-		    together.setHours(16);						//小时	
-		    together.setMinutes(53);					//分钟
-		    together.setSeconds(0);					//秒前一位
-		    together.setMilliseconds(2);				//秒第二位
+			
+			//以下由猩猿添加如果你有技术欢迎修改
+			var q_nian=2020;		//年
+			var q_yue=11;		//月
+			var q_ri=22;		//日
+			var q_shi=10;		//小时
+			var q_fen=0;		//分钟
+			var q_miaoq1=0;		//秒前一位
+			var q_miaoq2=0;		//秒第二位
+			
+		    together.setFullYear(q_nian,q_yue-1 , q_ri);		
+		    together.setHours(q_shi);						
+		    together.setMinutes(q_fen);					
+		    together.setSeconds(q_miaoq1);					
+		    together.setMilliseconds(q_miaoq2);				
 
 		    $("#code").show().typewriter();
             $("#clock-box").fadeIn(500);
@@ -208,7 +216,7 @@
     </script>
 
 <div style="text-align:center;">
-<p>来源：<a href="http://www.mycodes.net/" title="源码之家" target="_blank">源码之家</a></p>
+<p>来源：<a href="#" title="猩猿分享" target="_blank">猩猿分享</a></p>
 </div>
 
 </body>
