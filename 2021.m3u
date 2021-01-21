@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 group-title="李H黑",李黑
+http://downloadnet.github.io/lh.mp4
 #EXTINF:-1 group-title="李H黑",1
 https://cdn.aqd-tv.com/video/3a868808/playlist/3a868808.m3u8
 #EXTINF:-1 group-title="李H黑",2
